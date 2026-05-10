@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-smoke text-stone-100 font-body;
+}
+
+.gold-border {
+  @apply border border-amber/40;
+}
